@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="theaterPage" prefHeight="600.0"
+	prefWidth="800.0" style="-fx-background-color: white;"
+	xmlns="http://javafx.com/javafx/8.0.171"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="views.TheaterController">
+	<children>
+		<Button id="fourteen" layoutX="548.0" layoutY="332.0"
+			mnemonicParsing="false" onAction="#ticketing" prefHeight="63.0"
+			prefWidth="213.0" text="FINISH" textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Button>
+		<ComboBox fx:id="combobox" layoutX="548.0" layoutY="224.0"
+			prefHeight="42.0" prefWidth="213.0" />
+		<ChoiceBox fx:id="choicebox" layoutX="548.0" layoutY="118.0"
+			prefHeight="42.0" prefWidth="213.0" />
+		<Button id="fifteen" layoutX="550.0" layoutY="438.0"
+			mnemonicParsing="false" onAction="#cancle" prefHeight="63.0"
+			prefWidth="213.0" text="CANCLE" textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Button>
+		<AnchorPane id="movieBack" layoutX="30.0" layoutY="176.0"
+			prefHeight="325.0" prefWidth="505.0" />
+		<Label layoutX="624.0" layoutY="75.0" text="영화 선택 " />
+		<Label layoutX="626.0" layoutY="188.0" text="좌석 선택" />
+	</children>
+</AnchorPane>

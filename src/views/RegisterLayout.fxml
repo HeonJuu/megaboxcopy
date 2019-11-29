@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="registerPage" prefHeight="600.0"
+	prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="views.RegisterController">
+	<children>
+		<Button id="six" layoutX="618.0" layoutY="439.0"
+			mnemonicParsing="false" onAction="#register" prefHeight="53.0"
+			prefWidth="148.0" text="NEXT" textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Button>
+		<Button id="seven" layoutX="618.0" layoutY="509.0"
+			mnemonicParsing="false" onAction="#cancel" prefHeight="53.0"
+			prefWidth="148.0" text="CANCEL" textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Button>
+		<TextField fx:id="txtId" layoutX="240.0" layoutY="190.0"
+			prefHeight="62.0" prefWidth="320.0" text="아이디 입력" />
+		<PasswordField fx:id="pass" layoutX="240.0"
+			layoutY="300.0" prefHeight="62.0" prefWidth="320.0" />
+		<Label id="eight" alignment="CENTER" layoutX="339.0"
+			layoutY="102.0" prefHeight="29.0" prefWidth="122.0" text="REGISTER"
+			textAlignment="CENTER" textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="24.0" />
+			</font>
+		</Label>
+		<Label id="nine" alignment="CENTER" layoutX="377.0"
+			layoutY="151.0" prefHeight="29.0" prefWidth="47.0" text="ID"
+			textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Label>
+		<Label id="ten" alignment="CENTER" layoutX="331.0"
+			layoutY="264.0" prefHeight="29.0" prefWidth="141.0" text="PASSWORD"
+			textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Label>
+		<Label id="eleven" alignment="CENTER" layoutX="364.0"
+			layoutY="372.0" prefHeight="26.0" prefWidth="74.0" text="NAME"
+			textFill="WHITE">
+			<font>
+				<Font name="Expo M" size="22.0" />
+			</font>
+		</Label>
+		<TextField fx:id="txtName" layoutX="240.0" layoutY="408.0"
+			prefHeight="62.0" prefWidth="320.0" text="이름 입력" />
+	</children>
+</AnchorPane>

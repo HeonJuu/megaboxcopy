@@ -1,0 +1,24 @@
+#mainPage, #registerPage, #loginPage, #theaterPage, #canclePage {
+	-fx-background-image: url(/resources/back.png);
+	-fx-background-size: cover;
+	-fx-background-color: #fff;
+}
+#bob {
+	-fx-background-image: url(/resources/bob.gif);
+	-fx-background-size: cover;
+	-fx-background-color: #dddddd;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #qwer, #asdf{
+	-fx-background-color: #1d0164;
+}
+#movieBack {
+	-fx-background-image: url(/resources/bac.jpg);
+	-fx-background-size: 100.0%, 100.0%;
+	-fx-background-color: #dddddd;
+}
+
+#pop {
+	-fx-background-image: url(/resources/pop.jpg);
+	-fx-background-size: cover;
+	-fx-background-color: #dddddd;
+}
